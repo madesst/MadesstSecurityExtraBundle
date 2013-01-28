@@ -1,0 +1,20 @@
+{
+	"name": "madesst/security-extra-bundle",
+	"description": "Add route names support in security.yml",
+	"keywords": ["madesst", "security", "route", "access_control"],
+	"type": "symfony-bundle",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "madesst",
+			"homepage": "https://github.com/madesst"
+		}
+	],
+	"require": {
+		"symfony/framework-bundle": "~2.0"
+	},
+	"autoload": {
+		"psr-0": { "Madesst\\SecurityExtraBundle": "" }
+	},
+	"target-dir": "Madesst/SecurityExtraBundle"
+}
